@@ -162,7 +162,7 @@ class XmlDriver extends FileDriver
             if (is_numeric($writeConcern)) {
                 $writeConcern = (int) $writeConcern;
             }
-            
+
             $metadata->setWriteConcern($writeConcern);
         }
 
